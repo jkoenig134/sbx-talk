@@ -1,0 +1,16 @@
+schemaVersion: "1"
+kind: mixin
+name: my-kit
+displayName: My Kit
+description: My Kit
+
+network:
+  allowedDomains:
+    - myCompany.com
+    - example.com
+
+commands:
+  startup:
+    - command: [ "mise", "trust" ]
+    - command: [ "mise", "i" ]
+    - command: [ "mise", "bootstrap" ]

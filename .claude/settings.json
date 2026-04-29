@@ -1,0 +1,6 @@
+{
+    "deny": [
+        "Read(~/secrets.txt)",
+        "Read(~/credentials.txt)"
+    ]
+}
